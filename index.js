@@ -137,6 +137,7 @@ function all_result() {
 
 function show_hide_elements() {
     let button = document.querySelector("button");
+    let input = document.querySelector("input");
 
     function start_ev() {
 
@@ -150,10 +151,20 @@ function show_hide_elements() {
     }
 
     button.addEventListener("click", start_ev);
+
+
+    input.onkeydown = function (pres) {
+        if (pres.which === 13){
+            console.log("enter press");
+            button.click();
+        }
+    };
+
 }
 
 
 function some_main_start_point(){
+
     show_hide_elements();
 
 }
