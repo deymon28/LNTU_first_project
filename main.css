@@ -1,0 +1,37 @@
+body {
+    background-color: #222222;
+}
+.nai{
+    display: block;
+    margin: auto;
+    text-align: center;
+    /*margin: 10px;*/
+}
+input.frek{
+    box-sizing:border-box;
+    height: 36px;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+h1.frek{
+    font-size: 250%;
+    margin-top: 150px;
+}
+
+.rek{
+    font-size: 250%;
+    margin-top: 150px;
+}
+
+.ochered{
+    color: white;
+}
+
+.progress{
+    --bs-progress-bg: #181818;
+}
