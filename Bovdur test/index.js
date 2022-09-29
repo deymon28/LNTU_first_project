@@ -155,7 +155,6 @@ function show_hide_elements() {
 
     input.onkeydown = function (pres) {
         if (pres.which === 13){
-            console.log("enter press");
             button.click();
         }
     };
