@@ -1,0 +1,52 @@
+h1.otstup {
+    margin-top: 20px;
+}
+button.otstup {
+    margin-top: 20px;
+    font-size: 100%;
+}
+
+.card {
+    display: block;
+    position: relative;
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*height: 500px;*/
+    width: 600px;
+    background: #181818;
+    /*overflow: hidden;*/
+    box-shadow: 0 0 20px 8px #181818;
+}
+
+.bord{
+    margin: 10px;
+}
+
+.position{
+    display: block;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 10px;
+
+}
+
+.right{
+    text-align: right;
+}
+.content-q{
+    margin: 20px;
+}
+.content-a{
+    margin: 20px;
+}
+.list-group{
+    --bs-list-group-bg: #222222;
+}
+.list-group-item {
+color: rgba(255, 255, 255, 0.87);
+}
+.text87{
+    color: rgba(255, 255, 255, 0.87);
+}
