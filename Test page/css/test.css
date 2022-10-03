@@ -52,7 +52,7 @@ button.otstup {
     --bs-list-group-bg: #222222;
 }
 .list-group-item {
-color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.87);
 }
 .text87{
     color: rgba(255, 255, 255, 0.87);
@@ -60,3 +60,22 @@ color: rgba(255, 255, 255, 0.87);
 
 
 /* Зробити .card коли контейнер менше 600px на всю ширину сторінки, або з margin 20px; */
+/*.position{*/
+/*    display: block;*/
+/*    position: fixed;*/
+/*    left: 4%;*/
+/*    transform: translate(-2.5%);*/
+/*    margin: 10px;*/
+
+/*}*/
+@media (max-width: 768px) {
+    .position{
+        display: block;
+        position: fixed;
+        left: 4%;
+        transform: translate(-2.5%);
+        margin: 10px;
+
+    }
+
+}
